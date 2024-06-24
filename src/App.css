@@ -1,42 +1,62 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+table{
+  border:1px solid black;
+  width: 1000px;
 }
+th{
+  border-bottom:1px solid grey;
+  background-color: rgb(238, 237, 237);
+  padding: 10px;
+}
+tr{
+  text-align:center;
+  padding:15px;
+}
+td{
+  padding:20px;
+}
+.cars{
+  width: 1100px;
+  margin:0 auto;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.post__btn{
+  background-color:rgb(63, 63, 236);
+  color:white;
+  border:none;
+  padding:10px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#post{
+  position: absolute;
+  width: 400px;
+  top: 0px;
+  left: 300px;
+  text-align: start;
+  padding:15px;
+  background-color:white;
+  gap: 10px;
+  box-shadow: 15px 30px 30px 20px  rgb(240, 239, 239);
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input,option,select{
+  width: 90%;
+  padding: 10px;
+  border: 1px solid rgb(204, 203, 203);
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+*{
+  position: relative;
 }
-
-.card {
-  padding: 2em;
+#edit__btn,#ok__btn{
+  background-color:rgb(78, 160, 78);
+  color:white;
+  border:none;
+  padding:10px;
+  margin: 3px;
 }
-
-.read-the-docs {
-  color: #888;
+#delete__btn,#cencel__btn{
+  background-color:rgb(226, 48, 48);
+  color:white;
+  border:none;
+  padding:10px;
+  margin: 3px;
 }
